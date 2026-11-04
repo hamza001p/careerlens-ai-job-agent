@@ -1,0 +1,2 @@
+Junior Python Developer
+We are looking for a junior developer with Python fundamentals, REST API knowledge, Git, SQL basics, and good communication. Familiarity with Flask or FastAPI is a plus. Applicants should be willing to learn and work collaboratively.

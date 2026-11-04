@@ -1,0 +1,68 @@
+{
+"name": "Hamza Asif",
+"education": "BS Information Technology (currently pursuing)",
+"career_goal": [
+"Junior Python Developer",
+"Frontend Developer",
+"AI/ML Engineer"
+],
+"skills": [
+"Python",
+"JavaScript",
+"HTML",
+"CSS",
+"React.js",
+"Flask",
+"FastAPI",
+"REST APIs",
+"NumPy",
+"Pandas",
+"Machine Learning",
+"Deep Learning",
+"Git",
+"GitHub"
+],
+"projects": [
+{
+"name": "Weather App React",
+"description": "Responsive weather application using React and a weather API",
+"github": "[https://github.com/hamza001p/weather-app-react](https://github.com/hamza001p/weather-app-react)"
+},
+{
+"name": "React CRUD App",
+"description": "User management with create, read, update and delete functionality using React, Axios and PrimeReact",
+"github": "[https://github.com/hamza001p/react-crud-app](https://github.com/hamza001p/react-crud-app)"
+},
+{
+"name": "Python Snake Game",
+"description": "Classic Snake game built using Python and Pygame",
+"github": "[https://github.com/hamza001p/python-snake-game](https://github.com/hamza001p/python-snake-game)"
+},
+{
+"name": "Tic Tac Toe Game",
+"description": "Interactive browser game built using HTML, CSS and JavaScript",
+"github": "[https://github.com/hamza001p/tic-tac-toe-game](https://github.com/hamza001p/tic-tac-toe-game)"
+},
+{
+"name": "React UI Project",
+"description": "Responsive user interface built with reusable React components",
+"github": "[https://github.com/hamza001p/react-UI-project](https://github.com/hamza001p/react-UI-project)"
+},
+{
+"name": "Currency Converter",
+"description": "Currency conversion application using HTML, CSS, JavaScript and an exchange-rate API",
+"github": "[https://github.com/hamza001p/Currency-Converter](https://github.com/hamza001p/Currency-Converter)"
+}
+],
+"current_projects": [
+"AI Job Agent using Python, LangChain and Groq",
+"WhatsApp Contact Agent using Python and FastAPI"
+],
+"experience": [ ],
+"certifications": [ ],
+"languages": [
+"Urdu",
+"English"
+],
+"github": "[https://github.com/hamza001p](https://github.com/hamza001p)"
+}
