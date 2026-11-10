@@ -14,6 +14,7 @@ import {
   Menu,
   X,
 } from 'lucide-react'
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:5001";
 
 const features = [
   {
@@ -109,7 +110,7 @@ async function handleAnalyze() {
 
   try {
     const response = await axios.post(
-      'http://127.0.0.1:5001/api/analyze',
+     `${API_BASE_URL}/api/analyze`,
       formData,
     )
 
@@ -151,7 +152,7 @@ async function handleDetectResume() {
 
   try {
     const response = await axios.post(
-      'http://127.0.0.1:5001/api/detect-resume-sections',
+     	`${API_BASE_URL}/api/detect-resume-sections`,
       formData,
     )
 
@@ -188,7 +189,7 @@ async function handleImproveEntireCV() {
 
   try {
     const response = await axios.post(
-      'http://127.0.0.1:5001/api/improve-entire-cv',
+     `${API_BASE_URL}/api/improve-entire-cv`,
       {
         sections: detectedSections,
         job_description: jobDescription,
@@ -232,7 +233,7 @@ async function handleImproveCurrentSection() {
 
   try {
     const response = await axios.post(
-      'http://127.0.0.1:5001/api/improve-resume-section',
+     `${API_BASE_URL}/api/improve-resume-section`,
       {
         section_name: currentSection.section_name,
         original_text: currentSection.original_text,
@@ -302,7 +303,7 @@ async function handleExportCV(format) {
     })
 
     const response = await axios.post(
-      `http://127.0.0.1:5001/api/export-cv/${format}`,
+     `${API_BASE_URL}/api/export-cv/${format}`,
       { sections: exportSections },
       { responseType: 'blob' },
     )
@@ -348,7 +349,7 @@ async function handleCoverLetter() {
     formData.append('job_description', jobDescription)
 
     const response = await axios.post(
-      'http://127.0.0.1:5001/api/cover-letter',
+     	`${API_BASE_URL}/api/cover-letter`,
       formData,
     )
 
@@ -383,7 +384,7 @@ async function handleImproveSection() {
 
   try {
     const response = await axios.post(
-      'http://127.0.0.1:5001/api/improve-resume-section',
+     	`${API_BASE_URL}/api/improve-resume-section`,
       {
         section_name: sectionName,
         original_text: originalSection,
@@ -409,7 +410,7 @@ async function handleDownloadCoverLetter() {
 
   try {
     const response = await axios.post(
-      'http://127.0.0.1:5001/api/cover-letter/download',
+      	`${API_BASE_URL}/api/cover-letter/download`,
       {
         cover_letter: coverLetter,
         job_title: coverLetterJobTitle,
